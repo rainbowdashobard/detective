@@ -1,0 +1,42 @@
+{
+  "name": "electronic-detective",
+  "version": "0.9.0",
+  "private": true,
+  "homepage": "http://www.finitemonkey.com/detective",
+  "dependencies": {
+    "babel-plugin-emotion": "^9.0.1",
+    "chai": "^4.1.2",
+    "emotion": "^9.0.2",
+    "jss": "^9.8.1",
+    "material-ui": "^1.0.0-beta.42",
+    "mocha": "^5.0.1",
+    "proptypes": "^1.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-emotion": "^9.0.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0",
+    "redux": "^3.7.2",
+    "redux-mock-store": "^1.5.1",
+    "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.2.0",
+    "save": "^2.3.2",
+    "source-map-explorer": "^1.5.0",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer build/static/js/main.*",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "redux-devtools": "^3.4.1",
+    "chai": "*",
+    "mocha": "*"
+  }
+}
