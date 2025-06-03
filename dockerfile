@@ -1,7 +1,6 @@
 FROM node
-ENV NPM_CONFIG_LOGLEVEL info
+ENV NPM_CONFIG_LOGLEVEL=info
 
-FROM https://github.com/thefinitemonkey/electronic-detective
 WORKDIR /app
 
 COPY package*.json ./
